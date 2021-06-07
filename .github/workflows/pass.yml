@@ -10,6 +10,8 @@ jobs:
         uses: actions/setup-node@v2-beta
         with:
           node-version: 14.x
+      - name: install 
+        uses: npm i
       - name: passing test
         uses: cypress-io/github-action@v2
         with:
