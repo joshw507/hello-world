@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "cypress:pass": "npx cypress run --spec 'cypress/integration/pass/pass.spec.js' --browser chrome"
   },
   "dependencies": {
     "core-js": "^3.9.1",

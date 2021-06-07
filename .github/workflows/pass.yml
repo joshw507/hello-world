@@ -16,4 +16,5 @@ jobs:
       - name: passing test
         uses: cypress-io/github-action@v2
         with:
-          command: 'npx cypress run --spec "cypress/integration/pass/pass.spec.js"'
+          install: false 
+          command: npm run cypress:pass
