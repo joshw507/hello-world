@@ -1,4 +1,4 @@
-name: Run Cypress tests pass
+name: Run Cypress tests fail
 on: [push]
 jobs:
   cypress-run:
@@ -17,4 +17,4 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           install: false 
-          command: npm run cypress:pass
+          command: npm run cypress:fail
